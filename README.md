@@ -1,6 +1,6 @@
 # archeage-auto-fisher
 
--setting location regions helps improve code run time.
+-setting location regions helps improve code run time. <br />
 -therefor it has to be personalized, easiest way find your tabs location is to take a screenshot of screen
  and use a software such as 3d paint (crop) to find pixel distances.
 -need python
