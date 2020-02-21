@@ -5,25 +5,27 @@ from directKeys import PressKey, ReleaseKey
 
 fishDead = False
 
+# keys here
 j = 0x24
 y = 0x15
 u = 0x16
 g = 0x22
 h = 0x23
 
-print('starting test')
 
 # look for when fish is caught
+# the region use in the next two locateOnScreens is the fish's health bar/skills that appear under it
 image = ag.locateOnScreen('img\startFight.png', confidence=.7, region =(800,0,1500,200))
 print('starting...')
 
 while image == None:
     image = ag.locateOnScreen('img\startFight.png', confidence=.7, region =(800,0,1500,200))
-
+####
 
 print('FISH ON!')
 
 
+# the rest of the regions used is your skill bar, all the fishing skills have to be within the box
 while True:
     if(fishDead):
         break
