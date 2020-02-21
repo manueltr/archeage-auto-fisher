@@ -5,7 +5,7 @@ Setting location regions help improve code run time, and therefor it has to be p
 Easiest way find your tab locations is to take a screenshot <br />
 and use a software such as 3d paint(crop) to find pixel distances.
 
-If script is not performing a task, try changing confidence level 1-0, 1 being more precise.
+If the script is not performing a task, try changing the confidence level, 1 being the most precise and 0 none. You will probably have to lower it.
 
 ```python
 region = (left, top, width, height)
