@@ -1,9 +1,13 @@
 # archeage-auto-fisher
 
+<<<<<<< HEAD
 You need to have the opencv and pyautogui installed
 run:
 pip install opencv-python
 pip install pyautogui
+=======
+Setting location regions help improve code run time and therefore it has to be personalized.
+>>>>>>> 571ab2f513ffa850194b3b9ec74309956632ca60
 
 my settings- res: 2560 x 1440 and ui scale: 100%
 
