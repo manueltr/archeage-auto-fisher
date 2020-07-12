@@ -11,7 +11,7 @@ pyautogui looks for the exact image pixel by pixel. If you don't
 have my settings, You will have to update all the png files with your own.
 Even then, you still might have to do so.
 
-The easiest way find your skill bar location is to take a screenshot <br />
+The easiest way to find your skill bar location is to take a screenshot <br />
 and use a software such as 3d paint(crop) to find pixel distances.
 
 ```python
