@@ -1,11 +1,18 @@
 # archeage-auto-fisher
 
-Setting location regions help improve code run time, and therefor it has to be personalized.
+You need to have the opencv and pyautogui installed
+run:
+pip install opencv-python
+pip install pyautogui
 
-Easiest way find your tab locations is to take a screenshot <br />
+my settings- res: 2560 x 1440 and ui scale: 100%
+
+pyautogui looks for the exact image pixel by pixel. If you don't
+have my settings, You will have to update all the png files with your own.
+Even then, you still might have to do so.
+
+Easiest way find your skill bar location is to take a screenshot <br />
 and use a software such as 3d paint(crop) to find pixel distances.
-
-If the script is not performing a task, try changing the confidence level, 1 being the most precise and 0 none. You will probably have to lower it.
 
 ```python
 region = (left, top, width, height)
